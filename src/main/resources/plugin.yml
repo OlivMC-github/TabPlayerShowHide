@@ -1,0 +1,14 @@
+main: me.dkim19375.tabplayershowhide.TabPlayerShowHide
+name: TabPlayerShowHide
+version: ${pluginVersion}
+description: A plugin and API to show and hide players on the tab!
+author: dkim19375
+api-version: 1.13
+depend: [PlayerholderAPI, ProtocolLib]
+commands:
+  tabplayershowhide:
+    aliases:
+      - tbsh
+    description: Main command
+    usage: /tabplayershowhide [help|status <player>|show <player>|hide <player>]
+    permission: tabplayershowhide.use
